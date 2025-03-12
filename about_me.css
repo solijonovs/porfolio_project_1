@@ -1,0 +1,121 @@
+.picture {
+    background-image: url("./images/sascha-3.webp") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 650px;
+}
+
+#intro {
+    width: 1200px;
+    margin-bottom: 60px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Work Experience */
+.box10 {
+    display: flex;
+    height: auto;
+    width: 100%;
+    gap: 40px;
+}
+
+.can {
+    width: 330px;
+    height: 370px;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(#212121, #212121) padding-box,
+      linear-gradient(145deg, transparent 35%, #0a89a8, #252e31) border-box;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transform-origin: top bottom;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .can .main-content {
+    flex: 1;
+  }
+  
+  .can .header span:first-child {
+    font-weight: 600;
+    color: #717171;
+    margin-right: 4px;
+  }
+  
+  .can .heading {
+    font-size: 24px;
+    margin: 24px 0 16px;
+    font-weight: 600;
+  }
+  
+  .can .categories {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .can .categories span {
+    background-color: #0a89a8;
+    padding: 4px 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 50em;
+  }
+  
+  .can .footer {
+    font-weight: 600;
+    color: #717171;
+    margin-right: 4px;
+  }
+  
+  .can:hover {
+    rotate: -6deg;
+  }
+
+  .education {
+    font-size: 24px;
+  }
+
+  .education h4, h5, h6 {
+    margin: 0px;
+    font-weight: 400;
+  }
+
+  .education h6 {
+    margin-bottom: 40px;
+  }
+
+  .contact h2, h4 {
+    font-size: 24px;
+  }
+
+  .contact h4 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .education {
+    margin-bottom: 20px;
+  }
+
+  .contact {
+    margin-bottom: 40px;
+  }
+  
+  ul {
+    margin-bottom: 40px;
+  }
+  
+  .picture {
+    margin-bottom: 40px;
+  }
