@@ -1,0 +1,55 @@
+<h6 id="intro">    As a Passionate and driven Software Engineer with a B.A. in Computer & Information Science from Berea College (GPA: 3.8), recognized for academic excellence through the Dean’s List, Pugsley Mathematics Award, and participation in the CBYX Germany Exchange Program. Proficient in full-stack development, cloud infrastructure, and AI-driven solutions, with hands-on experience in JavaScript, Python, Angular, React, Azure, and AWS.
+
+                <br><br>    Recently interned at The Boeing Company, I’ve contributed to scalable cloud applications, optimized UI performance, and built secure hybrid cloud systems. Previously, I led the development of college-wide tools at Berea College, reducing administrative workloads by 300+ hours. My projects include a collaborative filtering movie recommender system (Python/AI) and multi-cloud environment design, emphasizing scalability and security.
+
+                <br><br>    Beyond coding, I thrive in leadership roles: growing the Google Developer’s Club by 35% as Technical Lead and fostering community as Asian Student Union Vice-President. Committed to lifelong learning, I aim to leverage technology to solve real-world challenges while mentoring future developers.
+            </h6>
+
+            <br><br><a href="./code/about_me.html">More Aboute Me.</a>
+
+footer {
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+}
+
+<div class="box1">
+              <!-- Projects 1 -->
+              <div class="card">
+                <img  id="first" src="./images/Screenshot 2025-03-11 165028.png">
+                <div class="card__content">
+                  <p class="card__title">Tesla Mock-Up</p>
+                  <p class="card__description">I have meticulously designed and developed a high-fidelity mock-up of the Tesla website using HTML and CSS, showcasing my ability to replicate complex layouts, responsive design, and modern UI/UX principles. This project demonstrates my proficiency in front-end development.</p>
+                </div>
+              </div>
+
+              <!-- Projects 2 -->
+              <div class="card">
+                <img  id="first" src="./images/Screenshot 2025-03-11 165215.png">
+                <div class="card__content">
+                  <p class="card__title">Chemistry App</p>
+                  <p class="card__description">Developed actionable recommendations, including digital attendance system and structured inventory management aimed at
+                improving efficiency and reducing TA workload</p>
+                </div>
+              </div>
+
+            <!-- Projects 3 -->
+            <div class="card">
+                <img  id="first" src="./images/Screenshot 2025-03-11 165321.png">
+                <div class="card__content">
+                  <p class="card__title">Number Gusser</p>
+                  <p class="card__description">I built a browser-based guessing game using JavaScript, showcasing my skills in functions, event handling, and DOM manipulation. The project runs in the browser, using the console for testing and debugging. It strengthened my understanding of interactivity, conditionals, and user input validation.</p>
+                </div>
+              </div>
+            </div>
+
+.project {
+height: auto;
+align-content: center;
+display: flex;
+justify-content: center;
+gap: 60px;
+flex-direction: row;
+flex-wrap: wrap;
+height: 1000px;
+}
